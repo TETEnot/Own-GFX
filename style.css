@@ -1,0 +1,596 @@
+body {
+  font-family: "Avenir Next";
+  line-height: 1;
+  min-width: 1024px;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  color: #fff;
+  background-color: #209cff;
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  border-bottom: solid 10px  #acdbf7;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 25px 40px;
+}
+
+.header-list li {
+  float: left;
+  padding: 25px 20px;
+  text-decoration: none; 
+}
+
+.menu {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.menu a{
+  text-decoration:none; 
+}
+
+.menber {
+  position: absolute;
+  color: black;
+  margin-top: 0;
+  top: 110px;
+  left: 20%;
+}
+
+h1 {
+  background-color: #a7d6ff; 
+}
+
+.menber-list {
+  position: absolute;
+}
+
+.plofile {
+  position: absolute;
+}
+
+h2 {
+  padding: 1rem 3rem;
+  -webkit-transform: skew(-15deg);
+  transform: skew(-15deg);
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#209cff), to(#68e0cf));
+  background-image: -webkit-linear-gradient(left, #209cff 0%, #68e0cf 100%);
+  background-image: linear-gradient(to right, #209cff 0%, #68e0cf 100%);
+  width: 500px;
+}
+
+h3 {
+  white-space: nowrap;
+  display: flex;
+  position: absolute;
+  float: left;
+  left: 350px;
+}
+
+h3:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  content: '';
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#2af598), to(#009efd));
+  background-image: -webkit-linear-gradient(right, #2af598 0%, #009efd 100%);
+  background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
+  height: 6px;
+}
+
+.boxsns {
+  display: flex;
+  top: -5px;
+  position: relative;
+}
+
+.text {
+  top: 500px;
+  font-size: 17px;
+  font-weight: 1px;
+  left: 500px;
+}
+
+.many-imgs {
+  position: absolute;
+  top: -125px;
+  left: 200px;
+}
+
+.img {
+  border-color: #209cff;
+  position: absolute;
+  left: 0;
+  top: 150px;
+  height: 70px;
+  size: 70px;
+}
+
+.genkinn {
+  position: absolute;
+  top: 50px;
+  white-space: nowrap;
+  line-height: 1px;
+  color: black;
+  left: 350px;
+}
+
+.news {
+  position: absolute;
+  color: black;
+  margin-top: 0;
+  top: 8250px;
+  left: 20%;
+}
+
+.news-title {
+  font-size: 35px;
+  top: 60px;
+  left: 400px;
+  position: absolute;
+}
+
+.news-picture {
+  height: 200px;
+}
+
+.news-write {
+  position: relative;
+  top: -150px;
+  left: 400px;
+}
+
+.momo {
+  position: absolute;
+  top: 9130px;
+  left: 20%;
+}
+
+.about {
+  position: absolute;
+  color: black;
+  margin-top: 0;
+  top: 9200px;
+  left: 20%;
+}
+
+
+.about-text {
+  line-height: 1px;
+}
+
+.lol-HISTORY {
+  padding-top: 2px;
+  margin-top: 4px;
+  position: absolute;
+  font-size: 500px;
+  left: 0;
+  top: 150px; 
+  font-size: 35px;
+}
+
+.lol {
+  left: 20%;
+  padding-top: 2px;
+  margin-top: 4px;
+  white-space: nowrap;
+  position: absolute;
+}
+
+.koko1 {
+  top: 9650px;
+  position: absolute;
+  left: 20%;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 240px;
+  background: rgb(20, 44, 112);
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 30px;
+  z-index: 2;
+}
+
+footer .pagetop {
+  position: absolute;
+  right: 25px;
+  top: -45px;
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+}
+
+footer .pagetop img {
+  display: block;
+  margin: 0 auto 10px;
+  position: relative;
+  top: 0;
+}
+
+footer .pagetop:hover img {
+  top: -5px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer nav {
+  margin-top: 35px;
+}
+
+footer nav ul {
+  text-align: center;
+}
+
+footer nav li {
+  margin: 0 14px;
+  display: inline-block;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+footer nav li path {
+  fill: #fff;
+}
+
+footer nav li:nth-last-of-type(1) {
+  display: block;
+  font-size: 12px;
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+}
+
+footer .copyright {
+  font-size: 11px;
+  margin-top: 43px;
+}
+
+.current {
+  font-size: 20px;
+}
+
+.wrap {
+	overflow: hidden;
+}
+
+/*============================
+タブレット端末 960px未満
+============================*/
+
+@media screen and (max-width: 1100px) {
+
+	/*メインビジュアル*/
+	.header {
+    height: 90px;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    background-color: #209cff;
+    position: absolute;
+    border-bottom: solid 10px  #acdbf7;
+	}
+
+  .header-list li {
+    float: left;
+    text-decoration: none;
+  }
+  
+  .menu {
+    list-style: none;
+  }
+  
+  .menu a{
+    text-decoration:none; 
+  }
+  
+  
+	/*プラン内容*/
+  .menber {
+    position: absolute;
+    color: black;
+    top: 110px;
+  }
+  
+  .menber-list {
+    position: absolute;
+    left: -190px;
+  }
+
+  .makkey {
+    position: absolute;
+    height: 500px;
+    left: -200px;
+  }
+  
+  .plofile {
+    position: absolute;
+    left: 0px;
+  }
+  
+  h2 {
+    left: -110px;
+    position: relative;
+    padding: 1rem 1rem;
+    -webkit-transform: skew(-15deg);
+    transform: skew(-15deg);
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, right top, from(#209cff), to(#68e0cf));
+    background-image: -webkit-linear-gradient(left, #209cff 0%, #68e0cf 100%);
+    background-image: linear-gradient(to right, #209cff 0%, #68e0cf 100%);
+    width: 355px;
+  }
+  
+  h3 {
+    white-space: nowrap;
+    display: flex;
+    position: absolute;
+    float: left;
+    font-size: 35px;
+    font-weight: 100px;
+  }
+  
+  h3:after {
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    width: 70%;
+    height: 6px;
+    content: '';
+    border-radius: 3px;
+    background-image: -webkit-gradient(linear, right top, left top, from(#2af598), to(#009efd));
+    background-image: -webkit-linear-gradient(right, #2af598 0%, #009efd 100%);
+    background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
+  }
+  
+  .boxsns {
+    display: flex;
+    top: -5px;
+    position: relative;
+  }
+  
+  .text {
+    top: 500px;
+    font-size: 17px;
+    font-weight: 1px;
+    left: 500px;
+  }
+  
+  .many-imgs {
+    position: absolute;
+    top: -125px;
+    left: 230px;
+  }
+  
+  .img {
+    border-color: #209cff;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    height: 100px;
+  }
+  
+  .genkinn {
+    position: absolute;
+    top: 50px;
+    white-space: nowrap;
+    line-height: 1px;
+    color: black;
+    left: 350px;
+    font-size: 28px;
+  }
+
+  .news-write {
+    width: 400px;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+
+  .news-write p {
+    margin: 0px;
+  }
+
+  .momo {
+    position: absolute;
+    top: 9130px;
+    left: 10%;
+  }
+
+  .about {
+    position: absolute;
+    color: black;
+    margin-top: 0;
+    top: 9200px;
+    font-size: 25px;
+    width: 100%;
+    left: 1.5%;
+  }
+  
+  .about-text {
+    line-height: 1px;
+  }
+
+  .lol-HISTORY {
+    padding-top: 2px;
+    margin-top: 4px;
+    position: absolute;
+    font-size: 500px;
+    left: 18%;
+    top: 150px; 
+    font-size: 35px;
+  }
+
+  .about-momo {
+    top: 9280px;
+    position: absolute;
+    left: 200000%;
+  }
+
+}
+
+/*============================
+スマホ端末 560px未満
+============================*/
+
+@media screen and (max-width: 559px) {
+  
+	/*メインビジュアル*/
+	.header {
+    height: 90px;
+    width: 260%;
+    position: relative;
+    color: #fff;
+    background-color: #209cff;
+    position: absolute;
+    border-bottom: solid 10px  #acdbf7;
+	}
+
+  .header-list li {
+    float: left;
+    text-decoration: none;
+  }
+  
+  .menu {
+    list-style: none;
+  }
+  
+  .menu a{
+    text-decoration:none; 
+  }
+  
+  
+	/*プラン内容*/
+  .menber {
+    position: absolute;
+    color: black;
+    top: 100px;
+  }
+  
+  .menber-list {
+    position: absolute;
+    left: -190px;
+  }
+
+  .image {
+    left: 120px;
+    position: absolute;
+  }
+
+  .makkey {
+    position: absolute;
+    height: 500px;
+    left: -200px;
+  }
+  
+  .plofile {
+    position: absolute;
+    left: 100px;
+  }
+  
+  h2 {
+    left: -50px;
+    position: relative;
+    padding: 1rem 1rem;
+    -webkit-transform: skew(-15deg);
+    transform: skew(-15deg);
+    color: #fff;
+    background-image: -webkit-gradient(linear, left top, right top, from(#209cff), to(#68e0cf));
+    background-image: -webkit-linear-gradient(left, #209cff 0%, #68e0cf 100%);
+    background-image: linear-gradient(to right, #209cff 0%, #68e0cf 100%);
+    width: 355px;
+  }
+  
+  h3 {
+    white-space: nowrap;
+    display: flex;
+    position: absolute;
+    float: left;
+    font-size: 35px;
+    font-weight: 100px;
+  }
+  
+  h3:after {
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    content: '';
+    border-radius: 3px;
+    background-image: -webkit-gradient(linear, right top, left top, from(#2af598), to(#009efd));
+    background-image: -webkit-linear-gradient(right, #2af598 0%, #009efd 100%);
+    background-image: linear-gradient(to left, #2af598 0%, #009efd 100%);
+  }
+  
+  .boxsns {
+    display: flex;
+    top: -5px;
+    position: relative;
+  }
+  
+  .text {
+    top: 500px;
+    font-size: 17px;
+    font-weight: 1px;
+    left: 500px;
+  }
+  
+  .many-imgs {
+    position: absolute;
+    top: -125px;
+    left: 230px;
+  }
+  
+  .img {
+    border-color: #209cff;
+    position: absolute;
+    left: 550;
+    top: 150px;
+    height: 100px;
+  }
+  
+  .genkinn {
+    position: absolute;
+    top: 50px;
+    white-space: nowrap;
+    line-height: 1px;
+    color: black;
+    left: 350px;
+    font-size: 28px;
+  }
+
+  .news-write {
+    width: 400px;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+
+  .news-write p {
+    margin: 0px;
+  }
+}

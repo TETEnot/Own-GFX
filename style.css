@@ -432,6 +432,10 @@ footer .copyright {
   
   .about-text {
     line-height: 1px;
+    width: 85%;
+    right: -100px;
+    position: relative;
+    line-height: 0.8em;
   }
 
   .lol-HISTORY {
@@ -581,6 +585,14 @@ footer .copyright {
     color: black;
     left: 350px;
     font-size: 28px;
+  }
+
+  .about-text {
+    line-height: 1px;
+    width: 85%;
+    right: -100px;
+    position: relative;
+    line-height: 1.6em;
   }
 
   .news-write {
